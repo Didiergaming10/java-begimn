@@ -26,6 +26,7 @@ square3 =   cp.addButton("square3")
   .setSize(80,80)
   .setCaptionLabel("Sciccors");
   
+  //steal code lmao
 
 }
 
