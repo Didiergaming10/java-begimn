@@ -163,7 +163,7 @@ void Button3() {
       
     }
     textSize(20);
-    text("Score ", 50,370);
+    text("Score: ", 50,370);
     text(test1,50,400);
   }
 }
