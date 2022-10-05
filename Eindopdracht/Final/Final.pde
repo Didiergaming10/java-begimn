@@ -4,12 +4,14 @@ ControlP5 cp;
 Button But1;
 Button But2;
 Button But3;
+PImage img;
 
 
 void setup() {
 
   size(500, 500);
   background(255);
+  img = loadImage("rps.png");
   cp = new ControlP5(this);
 
   But1 = cp.addButton("Button1")
@@ -32,6 +34,7 @@ void setup() {
 }
 
 void draw() {
+  image(img, 100,200);
 }
 int test1;
 String test2 = "Killstreak " + test1;
