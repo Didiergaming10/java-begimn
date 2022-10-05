@@ -18,12 +18,12 @@ void setup() {
     .setCaptionLabel("Rock");
   
   But2 = cp. addButton("Button2")
-    .setPosition(160, 100)
+    .setPosition(200, 100)
     .setSize(100, 100)
     .setCaptionLabel("Paper");
    
   But3 = cp.addButton("Button3")
-    .setPosition(270, 100)
+    .setPosition(350, 100)
     .setSize(100, 100)
     .setCaptionLabel("Scissors");
   
@@ -58,7 +58,7 @@ void Button1() {
       rect(0, 250, 500, 500);
       fill(0);
       textSize(25);
-      text("paper, you lose :(", 300, 400);
+      text("Paper, you lose", 300, 400);
       if (test1 > 0) {
         test1 = 0;
         println("Score reset");
@@ -70,7 +70,7 @@ void Button1() {
       rect(0, 250, 500, 500);
       fill(0);
       textSize(25);
-      text("scissors, you win :)", 300, 400);
+      text("Scissors, you win", 300, 400);
       test1++;
       println("Score: ", test1 );
     }
@@ -90,7 +90,7 @@ void Button2() {
       rect(0, 250, 500, 500);
       fill(0);
       textSize(25);
-      text("Rock, you win :)", 300, 400);
+      text("Rock, you win", 300, 400);
       test1++;
       println("Score: ", test1);
     }
@@ -100,7 +100,7 @@ void Button2() {
       rect(0, 250, 500, 500);
       fill(0);
       textSize(25);
-      text("paper, it's a tie", 300, 400);
+      text("Paper, it's a tie", 300, 400);
       
     }
     if (b == 2) {
@@ -109,7 +109,7 @@ void Button2() {
       rect(0, 250, 500, 500);
       fill(0);
       textSize(25);
-      text("scissors, you lose :(", 300, 400);
+      text("Scissors, you lose", 300, 400);
       if (test1 > 0 ) {
         test1 = 0;
         println("Score reset");
@@ -131,7 +131,7 @@ void Button3() {
       rect(0, 250, 500, 500);
       fill(0);
       textSize(25);
-      text("Rock, you lose :(", 300, 400);
+      text("Rock, you lose", 300, 400);
       if (test1 > 0) {
         test1 = 0;
         println("Score reset");
@@ -145,7 +145,7 @@ void Button3() {
       rect(0, 250, 500, 500);
       fill(0);
       textSize(25);
-      text("paper, you win :)", 300, 400);
+      text("Paper, you win", 300, 400);
       test1++;
       println("Score: ", test1);
     }
