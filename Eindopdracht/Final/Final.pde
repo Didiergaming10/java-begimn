@@ -17,16 +17,25 @@ void setup() {
   But1 = cp.addButton("Button1")
     .setPosition(50, 100)
     .setSize(100, 100)
+    .setColorBackground(color(9,8,28))
+    .setColorForeground(color(18,14,94))
+    .setColorActive(color(30,23,166))
     .setCaptionLabel("Rock");
   
   But2 = cp. addButton("Button2")
     .setPosition(200, 100)
     .setSize(100, 100)
+    .setColorBackground(color(9,8,28))
+    .setColorForeground(color(87,10,18))
+    .setColorActive(color(179,16,32))
     .setCaptionLabel("Paper");
    
   But3 = cp.addButton("Button3")
     .setPosition(350, 100)
     .setSize(100, 100)
+    .setColorBackground(color(9,8,28))
+    .setColorForeground(color(26,71,10))
+    .setColorActive(color(44,125,15))
     .setCaptionLabel("Scissors");
   
   textSize(25);
