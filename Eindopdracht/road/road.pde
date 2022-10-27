@@ -6,54 +6,44 @@ void setup() {
   road(150, 0);
   road2(320, 0);
   line(235, 0);
-  
-  //left side trees
-  rect(40, 100, 20, 70);
-  fill(#1E7642);
-  ellipse(49, 100, 50, 50);
-  noFill();
-  
-  fill(255);
-  rect(90, 190, 20, 70);
-  fill(#1E7642);
-  ellipse(99, 190, 50, 50);
-  noFill();
-    
-  fill(255);
-  rect(30, 260, 20, 70);
-  fill(#1E7642);
-  ellipse(39, 260, 50, 50);
-  noFill();
-      
-  fill(255);
-  rect(90, 380, 20, 70);
-  fill(#1E7642);
-  ellipse(99, 380, 50, 50);
-  noFill();
-  //right side trees
-    
-  fill(255);
-  rect(390, 90, 20, 70);
-  fill(#1E7642);
-  ellipse(399, 90, 50, 50);
-  noFill();
-    
-  fill(255);
-  rect(370, 210, 20, 70);
-  fill(#1E7642);
-  ellipse(379, 210, 50, 50);
-  noFill();
-      
-  fill(255);
-  rect(440, 350, 20, 70);
-  fill(#1E7642);
-  ellipse(449, 350, 50, 50);
-  noFill();
-  // end of tree :(
+  bomen(75, 30);
+  bomen2(420,30);
+
 }
 
 void draw() {
 }
+
+void bomen(int xWaarde, int yWaarde) {
+  fill(#1C864D);
+  stroke(#1C864D);
+  for (int i = 0; i < 2; i++) {
+    for (int j = 0; j < 4; j++) {
+      ellipse(xWaarde, yWaarde, 50, 50);
+      ellipse(xWaarde + 20, yWaarde + 30, 50, 50);
+      ellipse(xWaarde - 20, yWaarde +30, 50, 50);
+      yWaarde += 100;
+    }
+    yWaarde += 0;
+  }
+}
+
+void bomen2(int xWaarde, int yWaarde) {
+  fill(#1C864D);
+  stroke(#1C864D);
+  for (int i = 0; i < 2; i++) {
+    for (int j = 0; j < 4; j++) {
+      ellipse(xWaarde, yWaarde, 50, 50);
+      ellipse(xWaarde + 20, yWaarde + 30, 50, 50);
+      ellipse(xWaarde - 20, yWaarde +30, 50, 50);
+      yWaarde += 100;
+    }
+    yWaarde += 0;
+  }
+}
+
+
+
 
 void yes(int xWaarde, int yWaarde) {
 
