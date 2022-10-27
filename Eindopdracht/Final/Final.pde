@@ -51,8 +51,6 @@ String test2 = "Killstreak " + test1;
 
 
 void Button1() {
-  boolean e = true;
-  if (e) {
     int b = int(random(3));
     println(b);
     if (b == 0) {
@@ -89,7 +87,7 @@ void Button1() {
     textSize(20);
     text("Score: ", 50,370);
     text(test1,50,400);
-  }
+  
 }
 void Button2() {
   boolean e = true;
