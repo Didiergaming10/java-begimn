@@ -6,7 +6,8 @@ void setup() {
   road(150, 0);
   road2(320, 0);
   line(235, 0);
-  //funny tree moment
+  
+  //left side trees
   rect(40, 100, 20, 70);
   fill(#1E7642);
   ellipse(49, 100, 50, 50);
@@ -29,7 +30,7 @@ void setup() {
   fill(#1E7642);
   ellipse(99, 380, 50, 50);
   noFill();
-  //right side tree
+  //right side trees
     
   fill(255);
   rect(390, 90, 20, 70);
@@ -48,6 +49,7 @@ void setup() {
   fill(#1E7642);
   ellipse(449, 350, 50, 50);
   noFill();
+  // end of tree :(
 }
 
 void draw() {
